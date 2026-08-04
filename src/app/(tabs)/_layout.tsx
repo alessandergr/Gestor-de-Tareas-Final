@@ -1,15 +1,37 @@
-import { Tabs } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
+import { Tabs } from "expo-router";
+import React from "react";
 
 export default function TabsLayout() {
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: "#0F766E",
+        tabBarInactiveTintColor: "#718589",
+        tabBarStyle: {
+          height: 68,
+          paddingTop: 7,
+          paddingBottom: 9,
+          backgroundColor: "#FFFFFF",
+          borderTopColor: "#DCEBEA",
+        },
+        tabBarLabelStyle: {
+          fontSize: 12,
+          fontWeight: "600",
+        },
+      }}
+    >
       <Tabs.Screen
         name="products"
         options={{
-          headerShown: false,
+          title: "Tareas",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="list-outline" color={color} size={size} />
+            <Ionicons
+              name="checkmark-circle-outline"
+              color={color}
+              size={size}
+            />
           ),
         }}
       />
@@ -17,9 +39,13 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="settings"
         options={{
-          headerShown: false,
+          title: "Perfil",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="settings-outline" color={color} size={size} />
+            <Ionicons
+              name="person-circle-outline"
+              color={color}
+              size={size}
+            />
           ),
         }}
       />

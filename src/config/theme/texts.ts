@@ -1,32 +1,32 @@
 export const lightText = {
-  primary: "#111827",
-  secondary: "#4B5563",
-  tertiary: "#6B7280",
-  disabled: "#9CA3AF",
+  primary: "#17252A",
+  secondary: "#465B60",
+  tertiary: "#718589",
+  disabled: "#A4B3B5",
 
   inverse: "#FFFFFF",
 
   primaryButton: "#FFFFFF",
-  secondaryButton: "#111827",
+  secondaryButton: "#17252A",
 
-  link: "#6F00ED",
+  link: "#0F766E",
   success: "#15803D",
-  warning: "#B45309",
+  warning: "#A65308",
   error: "#B91C1C",
 };
 
 export const darkText = {
-  primary: "#FFFFFF",
-  secondary: "#D1D5DB",
-  tertiary: "#9CA3AF",
-  disabled: "#6B7280",
+  primary: "#F8FAFC",
+  secondary: "#CBD5E1",
+  tertiary: "#94A3B8",
+  disabled: "#64748B",
 
-  inverse: "#111827",
+  inverse: "#17252A",
 
   primaryButton: "#FFFFFF",
-  secondaryButton: "#111827",
+  secondaryButton: "#17252A",
 
-  link: "#A66CFF",
+  link: "#5EEAD4",
   success: "#4ADE80",
   warning: "#FBBF24",
   error: "#F87171",
